@@ -1,0 +1,16 @@
+{
+  "video": "example.mp4",
+  "events": [
+    {
+      "timestamp": 45.2,
+      "type": "catch",
+      "pokemon": "Pidgey",
+      "location": "Route 1"
+    },
+    {
+      "timestamp": 310.0,
+      "type": "death",
+      "pokemon": "Pidgey"
+    }
+  ]
+}

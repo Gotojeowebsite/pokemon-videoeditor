@@ -1,0 +1,54 @@
+Video Critique: 2026-04-08 19-19-34.final.mp4
+Generated: 2026-04-18
+
+1) Render Outcome
+- Status: Success
+- Input: data/raw_footage/2026-04-08 19-19-34.mp4
+- Output: data/final_cuts/2026-04-08 19-19-34.final.mp4
+- Processed log entry: processed (no failure)
+
+2) Final Media Specs (ffprobe)
+- Container duration: 5551.533333 s (01:32:31.53)
+- File size: 2607417757 bytes (about 2.43 GiB)
+- Overall bitrate: 3757401 bps
+- Video: h264, 1920x1080, 30 fps, ~3554846 bps
+- Audio: aac, 44100 Hz, stereo, ~193903 bps
+
+3) Runtime/Performance Notes
+- Adaptive OCR interval was applied at 10.0 s.
+- Adaptive render profile was applied:
+  - 30 fps
+  - libx264 preset veryfast
+  - non-blurred gameplay background (letterboxed fit)
+- Final encode completed successfully with fast throughput (terminal reported about 3.4x speed).
+
+4) Visual QA Frames Reviewed
+- data/_runtime/review_frames/2026-04-08_19-19-34.qa.00h05m00s.png
+- data/_runtime/review_frames/2026-04-08_19-19-34.qa.00h46m00s.png
+- data/_runtime/review_frames/2026-04-08_19-19-34.qa.01h31m00s.png
+
+5) What Looks Good
+- Overlay is correctly aligned and stable across the timeline.
+- Gameplay is fully visible (no destructive crop of core gameplay area).
+- Readability of side panels is acceptable at 1080p for static review.
+- Export completed with no terminal errors and moov relocation finished (+faststart behavior visible).
+
+6) Quality Gaps Found
+- Location stayed Unknown (confidence 0.00) in sampled frames.
+- Team/state tracking remains sparse (only a small subset of expected names appears).
+- OCR-derived names include probable misreads (example: "Astly").
+- Non-blurred long-video profile introduces large black letterbox zones above and below gameplay.
+
+7) Practical Recommendations For Next Pass
+- If quality is preferred over turnaround time:
+  - Re-enable blurred full-frame background in long mode.
+  - Raise long-video fps target to 48 or 60.
+- Improve event/state accuracy:
+  - Add per-video sidecar corrections for known Pokemon names and locations.
+  - Lower OCR interval from 10.0 s to 7.5 s for this game type when accuracy matters.
+  - Expand location correction map for common OCR misspellings.
+- Keep current profile when fast delivery is top priority.
+
+8) Verdict
+- This render is production-usable and much faster to generate than earlier attempts.
+- Main remaining quality limit is event/location metadata completeness, not encode stability.

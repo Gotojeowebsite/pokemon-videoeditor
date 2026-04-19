@@ -1,0 +1,32 @@
+Box Critique
+Date: 2026-04-18
+Output reviewed: data/final_cuts/2026-04-08 19-06-27.final.mp4
+Frames reviewed:
+- data/_runtime/review_frames/box_review_150s_after_blur.png
+- data/_runtime/review_frames/box_review_500s_after_blur.png
+
+Overall Box Grade: 7.9 / 10
+
+What Is Better Now
+1. Gameplay is centered in the middle panel.
+2. Important gameplay content is not being cropped off.
+3. The new fit behavior is stable across different moments in the run.
+
+What Still Looks Off
+1. There is still too much dead black space inside the gameplay box.
+2. The emulator window chrome/title area is visible, which makes the box feel less polished.
+3. The blur-fill improvement is subtle because the source already contains a lot of black; the background fill mostly stays dark.
+4. The DS content itself occupies only part of the captured window, so the middle box still does not feel fully "filled".
+
+My Honest Take
+The box is now safe and centered, but it is not yet "perfect fit" quality. It is a clear improvement over hard black letterboxing, but the source framing still leaves too much unused visual area.
+
+Best Next Fixes (in order)
+1. Add a fixed source crop profile for this emulator capture to remove window borders/chrome before scaling.
+2. Add an inner gameplay crop profile (content-only region) and use that as the blurred background source.
+3. Keep the no-crop foreground layer for safety, but let the background layer come from a tighter crop so the box feels full.
+4. If possible, record only the emulator viewport at capture time to avoid desktop/window padding entirely.
+
+Final Verdict
+Centered and safe: yes.
+Perfect middle fit without wasting space: not yet.

@@ -1,0 +1,40 @@
+Video Critique
+Date: 2026-04-18
+Output reviewed: data/final_cuts/2026-04-08 19-06-27.final.mp4
+
+Overall Grade: 7.7 / 10
+
+Quick Summary
+- The final cut was rebuilt with critique-driven logic changes applied.
+- Intro trim and viewport fill are now active, and the overlay state is no longer hard-stuck at Unknown/placeholder defaults.
+- OCR reasoning now produced location updates, but location text quality is still noisy and needs stronger correction logic.
+
+What Came Out Good
+1. Render completed successfully with updated logic and stable output playback.
+2. Intro auto-trim worked: runtime dropped to 647.55s (from about 650.05s previously).
+3. Placeholder team names are gone from persistent state (no more Pokemon1..Pokemon6 defaults).
+4. Overlay intelligence is visible now: timeline logged 5 OCR location events instead of 0 events.
+5. New reasoning fields are stored in state snapshots (location confidence, last event, event source).
+
+What Came Out Bad
+1. Location extraction is still inaccurate in several places (examples: "Cmegey City", "Lee Bay", "Et Bay", "Fo Bay", "Mt Pe").
+2. Final location is no longer Unknown, but it is likely a misread and not yet trustworthy enough for production-quality overlays.
+3. Catch/death/team progression is still mostly empty in this run (0 catches, 0 deaths, no team population), so automation is still only partial.
+4. Web fallback is now bounded for runtime safety, but that also means it cannot fully rescue low-quality OCR text by itself.
+
+Technical Notes From This Render
+- Duration: 647.55 seconds (10:47.55)
+- Output resolution: 1920x1080 @ 60 fps
+- Final file size: 185,075,198 bytes (~176.5 MiB)
+- Total bitrate: ~2.29 Mbps
+- Timeline events detected: 5 (all type=location)
+
+Actionable Recommendations (Highest Impact First)
+1. Add a location normalization layer that fuzzy-maps OCR strings to known Pokemon map names before committing to state.
+2. Require multi-frame consensus for location changes (for example, same normalized candidate seen at least 2-3 times before state update).
+3. Add sidecar correction support for known misreads so manual fixes can override OCR quickly per episode.
+4. Seed starting team roster at run start to prevent empty team panel when catches are not detected yet.
+5. Continue tuning OCR regions for location banners and battle/catch text separately to improve catch/death detection coverage.
+
+Final Verdict
+This rebuild is meaningfully better than the prior baseline: the bot now reasons, updates state, and no longer sits at static defaults. The remaining blocker is OCR text accuracy, not pipeline structure. With location normalization + consensus gating, expected quality should move into the 8.5+ range.

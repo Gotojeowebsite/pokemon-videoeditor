@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "videos": [
+    {
+      "video_file": "2026-04-08 19-06-27.mp4",
+      "logged_at": "2026-04-19T01:31:23.747097+00:00",
+      "events": [
+        {
+          "timestamp": 624.0,
+          "type": "location",
+          "pokemon": "",
+          "location": "Fo Bay",
+          "source": "ocr",
+          "snapshot": {
+            "catches": 2,
+            "fallen_count": 0,
+            "location": "Fo Bay",
+            "location_confidence": 0.5700000000000001,
+            "location_reasoning": "OCR full region matched location pattern. Used raw OCR location text (no strong normalization match). Consensus 2/2 sightings in 12s.",
+            "event_count": 1,
+            "last_event": "Entered Fo Bay.",
+            "last_event_source": "ocr",
+            "last_event_timestamp": 624.0,
+            "pc_box": [],
+            "graveyard": [],
+            "active_team": [
+              "Unsparce",
+              "Astly"
+            ]
+          }
+        }
+      ],
+      "final_state": {
+        "active_team": [
+          "Unsparce",
+          "Astly"
+        ],
+        "graveyard": [],
+        "pc_box": [],
+        "master": "J",
+        "catches": 2,
+        "location": "Fo Bay",
+        "fallen_count": 0,
+        "event_count": 1,
+        "last_event": "Entered Fo Bay.",
+        "location_confidence": 0.5700000000000001,
+        "location_reasoning": "OCR full region matched location pattern. Used raw OCR location text (no strong normalization match). Consensus 2/2 sightings in 12s.",
+        "last_event_source": "ocr",
+        "last_event_timestamp": 624.0
+      }
+    },
+    {
+      "video_file": "2026-04-08 19-19-34.mp4",
+      "logged_at": "2026-04-19T02:05:29.431854+00:00",
+      "events": [
+        {
+          "timestamp": 2400.0,
+          "type": "catch",
+          "pokemon": "Unsparce",
+          "location": "",
+          "source": "ocr",
+          "snapshot": {
+            "catches": 3,
+            "fallen_count": 0,
+            "location": "Unknown",
+            "location_confidence": 0.0,
+            "location_reasoning": "No strong location evidence yet.",
+            "event_count": 1,
+            "last_event": "Caught Unsparce.",
+            "last_event_source": "ocr",
+            "last_event_timestamp": 2400.0,
+            "pc_box": [
+              "Unsparce"
+            ],
+            "graveyard": [],
+            "active_team": [
+              "Unsparce",
+              "Astly"
+            ]
+          }
+        },
+        {
+          "timestamp": 3370.0,
+          "type": "catch",
+          "pokemon": "Astly",
+          "location": "",
+          "source": "ocr",
+          "snapshot": {
+            "catches": 4,
+            "fallen_count": 0,
+            "location": "Unknown",
+            "location_confidence": 0.0,
+            "location_reasoning": "No strong location evidence yet.",
+            "event_count": 2,
+            "last_event": "Caught Astly.",
+            "last_event_source": "ocr",
+            "last_event_timestamp": 3370.0,
+            "pc_box": [
+              "Unsparce",
+              "Astly"
+            ],
+            "graveyard": [],
+            "active_team": [
+              "Unsparce",
+              "Astly"
+            ]
+          }
+        }
+      ],
+      "final_state": {
+        "active_team": [
+          "Unsparce",
+          "Astly"
+        ],
+        "graveyard": [],
+        "pc_box": [
+          "Unsparce",
+          "Astly"
+        ],
+        "master": "J",
+        "catches": 4,
+        "location": "Unknown",
+        "fallen_count": 0,
+        "event_count": 2,
+        "last_event": "Caught Astly.",
+        "location_confidence": 0.0,
+        "location_reasoning": "No strong location evidence yet.",
+        "last_event_source": "ocr",
+        "last_event_timestamp": 3370.0
+      }
+    }
+  ]
+}

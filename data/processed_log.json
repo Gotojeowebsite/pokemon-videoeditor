@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "failed",
+      "sha256": "",
+      "perceptual_hash": "",
+      "duplicate_confidence": 0.0,
+      "notes": "Error: tesseract is not installed or it's not in your PATH. See README file for more information.",
+      "created_at": "2026-04-18T05:54:47.757472+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "failed",
+      "sha256": "",
+      "perceptual_hash": "",
+      "duplicate_confidence": 0.0,
+      "notes": "Error: [WinError 2] The system cannot find the file specified",
+      "created_at": "2026-04-18T06:17:16.557414+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "2026-04-08 19-06-27.final.mp4",
+      "status": "processed",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 0.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-18T06:52:39.957070+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "2026-04-08 19-06-27.final.mp4",
+      "status": "processed",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-18T17:09:38.245240+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "2026-04-08 19-06-27.final.mp4",
+      "status": "processed",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-18T19:21:49.116828+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "2026-04-08 19-06-27.final.mp4",
+      "status": "processed",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-18T19:39:08.152268+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "2026-04-08 19-06-27.final.mp4",
+      "status": "processed",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-18T20:15:37.849811+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "2026-04-08 19-06-27.final.mp4",
+      "status": "processed",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-18T20:32:54.720466+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "2026-04-08 19-06-27.final.mp4",
+      "status": "processed",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-18T20:50:20.592350+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "2026-04-08 19-06-27.final.mp4",
+      "status": "processed",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-18T21:25:47.680263+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:13:31.280924+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:17:28.505398+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:19:34.515315+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:21:08.285426+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:22:58.572258+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:24:04.161534+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:27:38.264944+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:29:00.230885+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:33:11.570938+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:35:48.906058+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T22:38:47.772003+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T23:18:04.085990+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "",
+      "status": "skipped_duplicate",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Auto-skipped likely duplicate based on fingerprint similarity.",
+      "created_at": "2026-04-18T23:22:52.987341+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-19-34.mp4",
+      "output_file": "2026-04-08 19-19-34.final.mp4",
+      "status": "processed",
+      "sha256": "51d1fa42c8db5d9f1caa44680a29e0abb5b8798b0e4455bce48b312b8e0ea98e",
+      "perceptual_hash": "b9a544d6c7b8d4a2-d2da2da54a93e493-93cc64b319e19dc6",
+      "duplicate_confidence": 0.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-18T23:56:02.406326+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-06-27.mp4",
+      "output_file": "2026-04-08 19-06-27.final.mp4",
+      "status": "processed",
+      "sha256": "837aa43cc5efe5ed83c70a435e2d64df06ec5361df58cb62644ac7e0e8fede3f",
+      "perceptual_hash": "b19966c448e6b9b3-ea9514ee19e29d94-e31c1cc31db6c19b",
+      "duplicate_confidence": 1.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-19T01:31:23.749582+00:00"
+    },
+    {
+      "input_file": "2026-04-08 19-19-34.mp4",
+      "output_file": "2026-04-08 19-19-34.final.mp4",
+      "status": "processed",
+      "sha256": "51d1fa42c8db5d9f1caa44680a29e0abb5b8798b0e4455bce48b312b8e0ea98e",
+      "perceptual_hash": "b9a544d6c7b8d4a2-d2da2da54a93e493-93cc64b319e19dc6",
+      "duplicate_confidence": 1.0,
+      "notes": "Processed with 0 death events (0 appended to dead_pokemon_log).",
+      "created_at": "2026-04-19T02:05:29.447865+00:00"
+    }
+  ]
+}

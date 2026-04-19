@@ -1,0 +1,38 @@
+Video Critique
+Date: 2026-04-17
+Output reviewed: data/final_cuts/2026-04-08 19-06-27.final.mp4
+
+Overall Grade: 6.8 / 10
+
+Quick Summary
+- The render completed successfully at full episode length (10:50).
+- Gameplay is centered in the middle template area as requested.
+- Visual quality is stable, but automation intelligence is not fully visible in this result because timeline fields stayed mostly default.
+
+What Came Out Good
+1. Final export is correct duration and playable.
+2. Template frame is present and consistent throughout the video.
+3. Gameplay placement is centered and not stretched.
+4. Audio is present and synchronized.
+
+What Came Out Bad
+1. Team panel remained placeholder values (Pokemon1..Pokemon6), so real roster tracking did not materialize in this run.
+2. Catches, location, graveyard, and PC box stayed mostly static (0/Unknown/empty), so the automated event inference did not produce meaningful updates for this footage.
+3. The source footage itself begins with desktop/OBS window moments before full gameplay; this reduces final polish.
+4. There is significant black space around DS content inside the gameplay viewport, so gameplay visual impact is lower than ideal.
+
+Technical Notes From This Render
+- Duration: 650.05 seconds (10:50)
+- Output resolution: 1920x1080 @ 60 fps
+- Final file size: ~157.5 MB
+- Total bitrate: ~1.94 Mbps
+
+Actionable Recommendations (Highest Impact First)
+1. Install and wire Tesseract OCR correctly so the bot can actually infer location/catch/death text from frames.
+2. Add smarter OCR region-cropping for top/bottom dialogue boxes and location banners to improve detection reliability.
+3. Initialize team_state with your real starting roster before run so overlays are not placeholders.
+4. Tune gameplay viewport crop for DS dual-screen content to reduce dead black area.
+5. Optionally pre-trim raw footage intro (desktop setup) or add auto-trim logic for non-gameplay start.
+
+Final Verdict
+The current output is a solid technical base and render pipeline works, but the "smart automatic tracker" behavior is only partially achieved in this specific video result. After OCR dependency and region-tuning are fixed, expected quality should move into the 8.5+ range.

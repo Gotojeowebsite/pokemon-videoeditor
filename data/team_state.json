@@ -1,0 +1,21 @@
+{
+  "active_team": [
+    "Unsparce",
+    "Astly"
+  ],
+  "graveyard": [],
+  "pc_box": [
+    "Unsparce",
+    "Astly"
+  ],
+  "master": "J",
+  "catches": 4,
+  "location": "Unknown",
+  "fallen_count": 0,
+  "event_count": 2,
+  "last_event": "Caught Astly.",
+  "location_confidence": 0.0,
+  "location_reasoning": "No strong location evidence yet.",
+  "last_event_source": "ocr",
+  "last_event_timestamp": 3370.0
+}

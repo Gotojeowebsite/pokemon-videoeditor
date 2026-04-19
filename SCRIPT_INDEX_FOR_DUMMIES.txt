@@ -1,0 +1,90 @@
+POKEMON VIDEO EDITOR - SUPER SIMPLE GUIDE
+
+1) WHAT THIS DOES
+- You drop raw gameplay videos in one folder.
+- Script edits them automatically.
+- It updates team/catches/fallen/location/pc box while the video plays.
+- It adds RIP moments when a Pokemon dies.
+- It saves final videos in output folder.
+- It keeps logs so you can track everything.
+- It can infer events with OCR (death/catch/location) even without sidecar files.
+
+2) IMPORTANT FOLDERS
+- data/raw_footage
+  Put your raw gameplay videos here.
+
+- data/events (OPTIONAL)
+  Sidecar event files are optional overrides.
+  If missing, bot still runs using OCR inference.
+  If used, event filename must match video name:
+  Example:
+  Video: episode01.mp4
+  Event file: episode01.events.json
+
+- data/final_cuts
+  Final edited videos appear here.
+
+- assets/icons
+  Put Pokemon icon PNG files here for graveyard panel.
+  Name format is lowercase + underscore:
+  Mr Mime -> mr_mime.png
+  Ho-Oh -> ho_oh.png
+
+- assets/music/sad_theme.mp3
+  Optional sad music for RIP sections.
+
+3) LOG FILES (VERY IMPORTANT)
+- data/processed_log.json
+  Shows processed/skipped/failed videos.
+
+- data/dead_pokemon_log.json
+  Full dead Pokemon history (lifetime; keeps building forever).
+
+- data/state_timeline_log.json
+  Timeline snapshots of catches/fallen/location/pc box/team.
+
+- data/team_state.json
+  Current carry-over run state after each processed video.
+
+4) INSTALL ONCE
+- Install FFmpeg and make sure ffmpeg + ffprobe are in PATH.
+- Install Tesseract OCR and make sure tesseract is in PATH.
+- In project folder run:
+  pip install -r requirements.txt
+
+5) RUN THE SCRIPT
+From the project root:
+python -m src.main
+
+Force re-process duplicates:
+python -m src.main --force
+
+6) HOW TO ADD EVENTS FAST
+In each .events.json file, use event types:
+- catch
+- death
+- swap_to_team
+- move_to_box
+- location
+
+7) GAMEPLAY POSITION
+Gameplay is forced into the center gameplay area of the template.
+It keeps aspect ratio and adds black letterboxing inside the middle viewport if needed.
+
+8) TROUBLESHOOTING
+- No output video:
+  Check data/processed_log.json for failed status and error note.
+
+- No RIP music:
+  Confirm assets/music/sad_theme.mp3 exists.
+
+- Wrong or missing graveyard icon:
+  Check icon file name in assets/icons matches sanitized Pokemon name.
+
+- OCR deaths missing:
+  Add manual death event in sidecar for that timestamp.
+
+9) BEST PRACTICE FOR MAX ACCURACY
+- Pure auto mode: just drop video and run script.
+- For extra accuracy, sidecar can be added as override (optional).
+- Graveyard persists forever using dead_pokemon_log history across all future videos.
